@@ -240,7 +240,7 @@ SELECT *
 ```
 SELECT *
   FROM tutorial.billboard_top_100_year_end
-  WHERE year >= 1990
+  WHERE year >= 1990 AND year_rank BETWEEN 1 AND 3
   ORDER BY year_rank, year
 ```
 
